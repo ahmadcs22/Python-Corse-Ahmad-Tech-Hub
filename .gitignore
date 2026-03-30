@@ -1,0 +1,16 @@
+# Ignore Ahmad Tech Custom Folders
+PYPRACTICE/
+PYSLIDES/
+
+# Ignore VS Code Settings (Keeps your personal editor settings private)
+.vscode/
+
+# Standard Python Ignores (Prevents uploading compiled junk files)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environments (If you use them later for Data Science)
+venv/
+.env

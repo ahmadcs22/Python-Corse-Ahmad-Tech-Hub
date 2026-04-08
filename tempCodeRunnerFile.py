@@ -1,1 +1,1 @@
-ahmad','ali','ayehsa','maryam
+del names

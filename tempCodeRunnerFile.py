@@ -1,1 +1,1 @@
-del names
+t(student.items())

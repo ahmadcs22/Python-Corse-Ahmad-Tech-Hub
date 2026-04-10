@@ -155,6 +155,16 @@
 #         break
 #     tries-=1
 
+# 36.	Three-Way Intersection: Find the common elements shared across three completely different lists.
+
+# a=[1,2,3,4,5]
+# b=[1,2,3,8,9]
+# c=[1,2,3,6,8]
+
+# final = list(set(a)&set(b)&set(c))
+
+# print(final)
+
 
 
       

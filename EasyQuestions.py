@@ -149,6 +149,6 @@
 #     print('not found')
 
 # 20.	Format Cleaner: Take a string with messy spacing (e.g., " Python ") and use string methods to strip the spaces and convert it to completely lowercase.
-inp=input('enter a string = ')
-cleaned=inp.strip().lower()
-print(cleaned)
+# inp=input('enter a string = ')
+# cleaned=inp.strip().lower()
+# print(cleaned)

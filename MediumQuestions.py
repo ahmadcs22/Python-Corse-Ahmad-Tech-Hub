@@ -111,3 +111,51 @@
 #     if len(i)>len(longest):
 #         longest=i
 # print(longest)
+
+# 33.	Interactive Calculator: Create a while loop that keeps running a calculator program until the user types "exit". It should ask for two numbers and an operator (+, -, *, /).
+# end=''
+# while end!='exit':
+#     inp1=int(input('enter num 1 ='))
+#     inp2=int(input('enter num 1 ='))
+#     opt1=input('Enter operator like = ').lower()
+#     if opt1 == '+':
+#         print(inp1+inp2)
+#     elif opt1 == '-':
+#         print(inp1-inp2)
+#     elif opt1 == '/':
+#         print(inp1/inp2)
+#     elif opt1 == '*':
+#         print(inp1*inp2)
+#     end=input('Enter exit to end else anything to continue = ')
+# print('exited')
+
+# 34.	Prime Finder: Write a program with nested loops to generate a list of all prime numbers up to 100.
+# list_prime=[]
+# for num in range(1,101):
+#     fac=0
+#     for i in range(1,num+1):
+#         if num%i==0:
+#             fac+=1
+#     if fac==2:
+#         print(num)
+
+# 35.	The Guessing Game: Set a secret number. Give the user 3 tries to guess it using a while loop and if/elif statements to give "too high" or "too low" hints.
+
+# num=12
+# tries=3
+
+# while tries>0:
+#     user_guess=int(input('Enter a number to guess = '))
+#     if user_guess>num:
+#         print('the num is lower')
+#     elif user_guess<num:
+#         print('num is graeter')
+#     elif user_guess==num:
+#         print('You found it bro ')
+#         break
+#     tries-=1
+
+
+
+      
+      

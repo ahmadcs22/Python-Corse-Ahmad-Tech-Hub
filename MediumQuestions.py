@@ -165,7 +165,19 @@
 
 # print(final)
 
+# 37.	Alphabetical Grouper: Take a list of names and write logic to group them into lists based on their starting letter.
+# names=['Ahmad','basit','cane','john','Ali','bashir','A']
+# directory={}
 
+# for name in names:
+#     fir_let=name[0].upper()
+
+#     if fir_let not in directory:
+#         directory[fir_let]=[]
+
+#     directory[fir_let].append(name)
+
+# print(directory)
 
       
       

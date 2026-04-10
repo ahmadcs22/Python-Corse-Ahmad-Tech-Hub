@@ -103,3 +103,11 @@
 
 # print(sum)
     
+# 32.	Longest Word: Write a program to find and print the longest word in a given sentence.
+# sentence = 'Ahmad is a good boy and boys like ahmad are very good and hardworking a a whatalongword '
+# words=sentence.split()
+# longest=''
+# for i in words:
+#     if len(i)>len(longest):
+#         longest=i
+# print(longest)

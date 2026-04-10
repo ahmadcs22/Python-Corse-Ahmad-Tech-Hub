@@ -91,3 +91,15 @@
 # one={1,2,3,4}
 # two={5,6,7,8,4}
 # print(one.symmetric_difference(two))
+
+# 31.	Digit Extractor: Loop through a string like "Pyth0n 1s Awe5ome" and extract only the numbers to calculate their sum.
+
+# sentence = "Pyth0n 1s Awe25ome"
+# sum =0
+
+# for i in sentence:
+#     if i.isdigit():
+#         sum +=int(i)
+
+# print(sum)
+    

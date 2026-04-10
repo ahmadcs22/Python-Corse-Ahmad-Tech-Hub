@@ -190,3 +190,15 @@
 #     num.insert(0,last)
 
 # print(num)
+
+# word1 = "Clint Eastwood"
+# word2 = "Old West Action"
+
+# clean1=word1.replace(" ","").lower()
+# clean2=word2.replace(" ","").lower()
+
+# if len(clean1)!=len(clean2):
+#     print('not ana')
+
+# if sorted(clean1)==sorted(clean2):
+#     print('are ana')

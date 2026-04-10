@@ -179,5 +179,14 @@
 
 # print(directory)
 
-      
-      
+
+# 38.	List Rotation: Rotate a list of numbers to the right by k positions (e.g., [1,2,3,4,5] rotated by 2 becomes [4,5,1,2,3]).    
+
+# num = [4,5,1,2,3]
+
+# for _ in range(2):
+#     last=num.pop()
+
+#     num.insert(0,last)
+
+# print(num)

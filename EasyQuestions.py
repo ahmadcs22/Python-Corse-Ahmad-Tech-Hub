@@ -107,8 +107,48 @@
 
 # 15.	The Breakout: Loop through numbers 1 to 20. If you hit the number 13, use break to stop the loop completely.
 
-for i in range(1,21):
-    print(i)
-    if i==13:
-        break
-print('13 occured loop out ')
+# for i in range(1,21):
+#     print(i)
+#     if i==13:
+#         break
+# print('13 occured loop out ')
+
+# 16.	The Skipper: Loop through numbers 1 to 20. Use continue to skip all numbers divisible by 3.
+# for i in range(1,21):
+#     if i%3==0:
+#         continue
+#     else:
+#         print(i)
+
+# 17.Access Control: Take a user's age as input. Print "Access Granted" if they are 18 or older, and "Access Denied" if younger.
+
+# age = int(input('enter your age = '))
+# if age >=18:
+#     print('access granted')
+# else:
+#     print('access denied')
+
+# 18.	Variable Swap: Swap the values of two variables (a = 5, b = 10) without creating a third temporary variable.
+# a=5
+# b=10
+
+# a=a^b
+# b=a^b
+# a=a^b
+
+# print(a,b)
+
+# 19.	Tuple Search: Write a program that checks if a specific target number exists inside a tuple.
+
+# numbers=(1,2,3,4,5,6,7,8,9,10)
+# inp=int(input('enter a num = '))
+
+# if inp in numbers:
+#     print('found')
+# else:
+#     print('not found')
+
+# 20.	Format Cleaner: Take a string with messy spacing (e.g., " Python ") and use string methods to strip the spaces and convert it to completely lowercase.
+inp=input('enter a string = ')
+cleaned=inp.strip().lower()
+print(cleaned)

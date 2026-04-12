@@ -46,3 +46,65 @@
     
 # c1=Car('Toyota')
 # print(c1.brand())
+
+
+# class hello():
+#     name='ahmad'
+#     def __init__(self,degreeg="cs"):
+#         self.degreeg=degreeg
+#     def info(self):
+#         return f'{self.name} age is {self.age} and degree is {self.degreeg} '
+    
+
+# hello.age=18
+
+# s1=hello()
+
+# print(s1.info())
+
+
+# class uog():
+#     def __init__(self,name,id):
+#         self.name=name
+#         self.id=id
+#     def info(self):
+#         return f'{self.name} your is is = {self.id}'
+    
+# class student(uog):
+#     def __init__(self, name, id,dept):
+#         super().__init__(name, id)
+#         self.dept =dept
+    
+#     def all_info(self):
+#         return f'{self.name} with id {self.id} in dept {self.dept}'
+
+# class teacher(student):
+#     def __init__(self, name, id, dept,age):
+#         super().__init__(name, id, dept)
+#         self.age=age
+#     def t_info(self):
+#         return f'{self.name} with id {self.id} in dept {self.dept} and age is {self.age}'
+    
+
+# t1=teacher('ahmad',69,'cs',22)
+
+# def hinew(self):
+#     return f'{self.name} is a good boy'
+
+# teacher.t_info=hinew
+
+
+# print(t1.t_info())
+
+# class uog():
+#     def __init__(self,name,id):
+#         self.__name=name
+#         self.id=id
+#     def info(self):
+#         return f'{self.__name} your is is = {self.id}'
+
+# s1 = uog('ahmad',69)
+
+# print(s1.info())
+
+    

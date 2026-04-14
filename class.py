@@ -110,3 +110,14 @@
 
 # --------------------what are classes and objects etc 
     
+class student():
+    def __init__(self,name,roll):
+        self.name=name
+        self.roll=roll
+
+    def info(self):
+        return f'{self.name} and roll is {self.roll}'
+    
+s1=student('ahmad',98)
+
+print(s1.info())

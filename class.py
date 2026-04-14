@@ -107,4 +107,6 @@
 
 # print(s1.info())
 
+
+# --------------------what are classes and objects etc 
     

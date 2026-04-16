@@ -119,5 +119,8 @@ class student():
         return f'{self.name} and roll is {self.roll}'
     
 s1=student('ahmad',98)
+student.age=18
+
+
 
 print(s1.info())

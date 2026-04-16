@@ -109,7 +109,7 @@
 
 
 # --------------------what are classes and objects etc 
- #yt vide   
+ #yt video on the way
 class student():
     def __init__(self,name,roll):
         self.name=name

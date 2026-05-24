@@ -17,7 +17,6 @@
 #     print('invalid marks')
 
 
-# <=  >= != == 
 
 
 #input skill from user

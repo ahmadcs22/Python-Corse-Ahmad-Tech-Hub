@@ -19,5 +19,5 @@
 
 
 
-#input skill from user
+#input skill from user hi
 #tell user abt its skill scope 

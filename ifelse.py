@@ -18,6 +18,3 @@
 
 
 
-
-#input 
-#tell user abt its skill scope 

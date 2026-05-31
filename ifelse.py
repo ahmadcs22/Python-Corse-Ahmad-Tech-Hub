@@ -13,6 +13,3 @@
 #     print('avg')
 # elif marks>=50:
 #     print('below avg')
-# else:
-#     print('invalid marks')
-

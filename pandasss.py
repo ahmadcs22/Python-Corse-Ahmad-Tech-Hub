@@ -48,6 +48,10 @@ df['lable']= ['97','98','99']
 # df.drop('index',index= 1,inplace=True)
 
 df=df.set_index('lable')
-df=df.reset_index()
-df.drop('lable',axis=1,inplace=True)
+# df=df.reset_index()
+# df.drop('lable',axis=1,inplace=True)
+# df = df[df['grades'] == 'A']   
 print(df)
+# print(df.loc['97'])
+# print(df.loc['97':'99',['name']])
+# print(df.iloc[0:3, 0:1])

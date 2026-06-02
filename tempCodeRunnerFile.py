@@ -1,1 +1,1 @@
-t(student.items())
+lable

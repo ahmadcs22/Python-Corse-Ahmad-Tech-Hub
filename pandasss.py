@@ -40,18 +40,28 @@ data = {
     'grades': ['A','B','C']
 }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 
-df['lable']= ['97','98','99']
+# df['lable']= ['97','98','99']
 # df.set_index('lable',drop=False)
 # df=df.reset_index()
 # df.drop('index',index= 1,inplace=True)
 
-df=df.set_index('lable')
+# df=df.set_index('lable')
 # df=df.reset_index()
 # df.drop('lable',axis=1,inplace=True)
 # df = df[df['grades'] == 'A']   
-print(df)
+# print(df)
 # print(df.loc['97'])
 # print(df.loc['97':'99',['name']])
 # print(df.iloc[0:3, 0:1])
+
+
+df = pd.DataFrame({
+    'Name': ['Ahmad','Ali','Anaya'],
+    'Marks': [90,80,95]
+})
+
+df['Result'] = df['Marks'] > 85
+
+print(df)

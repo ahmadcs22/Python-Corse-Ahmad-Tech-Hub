@@ -56,7 +56,7 @@ data = {
 # print(df.loc['97':'99',['name']])
 # print(df.iloc[0:3, 0:1])
 
-
+#cmnt
 df = pd.DataFrame({
     'Name': ['Ahmad','Ali','Anaya'],
     'Marks': [90,80,95]

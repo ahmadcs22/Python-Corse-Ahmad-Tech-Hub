@@ -1,11 +1,11 @@
 import pandas as pd
 
-df = pd.DataFrame({
-    'Team': ['CSK', 'MI', 'CSK', 'MI', 'RCB'],
-    'Runs': [100, 120, 150, 130, 110]
-})
-df_new=df.groupby('Team')['Runs'].sum()
-print(df_new)
+# df = pd.DataFrame({
+#     'Team': ['CSK', 'MI', 'CSK', 'MI', 'RCB'],
+#     'Runs': [100, 120, 150, 130, 110]
+# })
+# df_new=df.groupby('Team')['Runs'].sum()
+# print(df_new)
 
 df = pd.DataFrame({
     'Department':['IT','HR','IT','HR','IT'],

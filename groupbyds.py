@@ -13,4 +13,5 @@ df = pd.DataFrame({
 })
 
 new=df.groupby('Department')['Salary'].median()
+df.head()
 print(new)

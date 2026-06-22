@@ -74,6 +74,37 @@ import numpy as np
 
 # print(array)
 
-arr = np.array([49, 50, 51, 50, 50])
+# arr = np.array([49, 50, 51, 50, 50])
 
-print(arr.std())
+# print(arr.std())
+
+
+
+# arr = np.zeros(10)
+# arr = np.ones(10)
+# arr=np.full(10,5)
+# arr=np.ones(10)*5
+# arr=np.arange(10,51)
+# arr=np.arange(10,51,2)
+# arr=np.arange(0,9).reshape(3,3)
+# arr=np.eye(3,3)
+# arr = np.random.randn(25)
+# arr=np.arange(1,101).reshape(10,10)/100
+# arr=np.linspace(0,1,20)
+# [[ 1  2  3  4  5]
+#  [ 6  7  8  9 10]
+#  [11 12 13 14 15]
+#  [16 17 18 19 20]
+#  [21 22 23 24 25]]
+mat=np.arange(1,26).reshape(5,5)
+
+# print(mat[2:,1:])
+# print(mat[3,4])
+# print(mat[1:3,1:2])
+# print(mat[4])
+# print(mat.sum())
+# print(mat.std())
+# print(mat.sum(axis=0))
+# print(mat.max())
+# print(mat.min())
+# print(mat.mean())

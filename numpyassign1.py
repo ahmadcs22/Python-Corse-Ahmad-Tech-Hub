@@ -86,7 +86,7 @@ import numpy as np
 # Q19
 # arr = np.arange(1,101).reshape(10,10)
 # print(arr)
-# Q20 jee3
+# Q20 
 # arr=np.arange(1,101).reshape(10,10)
 # print(arr.sum(axis=1))
 

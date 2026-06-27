@@ -108,6 +108,3 @@ mat = np.arange(1,26).reshape(5,5)
 print(mat)
 # print(mat[2:,1:])
 # print(mat[3,4])
-
-# print(mat[1:3,1:2])
-# print(np.sum(mat))

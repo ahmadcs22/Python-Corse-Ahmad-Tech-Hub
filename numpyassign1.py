@@ -105,6 +105,6 @@ import numpy as np
 # array = np.arange(1,101)/100
 # array = np.linspace(0,1,20)
 mat = np.arange(1,26).reshape(5,5)
-print(mat)
+# print(mat)
 # print(mat[2:,1:])
 # print(mat[3,4])

@@ -22,9 +22,9 @@
 # ---------------------
 
 
-import pandas as pd 
+# import pandas as pd 
 
-df = pd.read_csv('Ecommerce_Purchases.csv')
+# df = pd.read_csv('Ecommerce_Purchases.csv')
 
 # print(df.head())
 # print(df.shape[1])
@@ -43,4 +43,4 @@ df = pd.read_csv('Ecommerce_Purchases.csv')
 # print((df['CC Exp Date'].str.split('-').str[2] == '22').sum())
 # print((df['Email'].str.split('@').str[1].value_counts().head(5)))
 
-# -------------
+# ------------

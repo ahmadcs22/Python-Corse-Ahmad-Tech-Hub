@@ -20,4 +20,3 @@ df['Marks'] = df['Marks'].fillna(df['Marks'].mean())
 
 print(df)
 
-# print(df.isnull()0

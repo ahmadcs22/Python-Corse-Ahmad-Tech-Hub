@@ -19,4 +19,4 @@ df = pd.DataFrame({
 df['Marks'] = df['Marks'].fillna(df['Marks'].mean())
 
 print(df)
-#dmi
+
